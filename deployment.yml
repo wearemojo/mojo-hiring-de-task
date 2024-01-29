@@ -1,0 +1,12 @@
+# https://fivetran.com/docs/transformations/dbt/code-setup-guide#writedbtjobs
+jobs:
+- name: hourly in-office hours
+  schedule: '0 05-20 * * *'
+  timeout: 30m
+  steps:
+  - name: seed models
+    command: dbt seed
+  - name: run models
+    command: dbt run
+  - name: test models
+    command: dbt test

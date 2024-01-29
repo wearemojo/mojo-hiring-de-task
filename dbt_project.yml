@@ -1,0 +1,33 @@
+name: mojo
+version: '1.0.0'
+config-version: 2
+
+profile: mojo
+
+model-paths: [models]
+analysis-paths: [analyses]
+test-paths: [tests]
+seed-paths: [seeds]
+macro-paths: [macros]
+snapshot-paths: [snapshots]
+
+target-path: target
+clean-targets:
+- target
+- dbt_packages
+
+vars:
+  mojo:
+    timestamp_tolerance_mins: 5
+
+models:
+  mojo:
+    # this is based on dbt's documented structure
+    # https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview
+
+    marts:
+      +materialized: table
+
+    staging:
+      +schema: staging
+      +materialized: view

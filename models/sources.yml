@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+
+- name: mojo_s_learntracking
+  schema: mojo_{{ target.name }}_s_learntracking
+  tables:
+  - name: user_activity
