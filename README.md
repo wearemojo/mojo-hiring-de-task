@@ -1,5 +1,12 @@
 # lead-de-task
 
+Please read the "Task" section in full before you start. We recommend re-reading it before submitting.
+
+Please do not release your solution publicly on GitHub. Instead, clone it and push it to your own private repository. Please attempt to maintain the Git history so we can quickly and easily see your changes. When you are ready to submit, please add the following users as collaborators to your repository, or download it as a ZIP for submission.
+
+- https://github.com/billinghamj
+- https://github.com/mattchan-mojo
+
 ## Task
 
 1. Make the data load incrementally, allowing for system time variance.
