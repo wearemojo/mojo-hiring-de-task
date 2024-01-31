@@ -9,8 +9,8 @@ Please do not release your solution publicly on GitHub. Instead, clone it and pu
 
 ## Task
 
-1. Make the data load incrementally, allowing for system time variance.
-2. Check that users' course events make sense - started & completed no more than once, completed after started.
+1. Optimize for cost by introducing incremental materialization, allowing for system time variance.
+2. Check that users' course events make sense - starting & completing only once, completing only after starting.
 
 ## Requirements & grading criteria
 
