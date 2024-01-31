@@ -15,8 +15,8 @@ Please do not release your solution publicly on GitHub. Instead, clone it and pu
 ## Requirements & grading criteria
 
 - Be aware that this code is designed to work with Fivetran & BigQuery.
-- Make use of the existing code to gain context to complete the task.
+- Make use of the existing files to gain context and maintain consistency.
 - We will look for code that is minimal, clean, and readable.
 - We are keen on consistency and attention to detail.
-- We are looking for code that stylistically matches the rest of the codebase.
+- We are looking for code that stylistically matches & makes sense with the rest of the repo.
 - We are looking for you to spend no more than 20 minutes on this task.
