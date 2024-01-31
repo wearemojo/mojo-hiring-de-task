@@ -9,7 +9,7 @@ Please do not release your solution publicly on GitHub. Instead, clone it and pu
 
 ## Task
 
-1. Optimize for cost by introducing incremental materialization, allowing for system time variance.
+1. Optimize for cost by introducing incremental materialization, allowing for time synchronization variance on timestamps.
 2. Check that users' course events make sense - starting & completing only once, completing only after starting.
 
 ## Requirements & grading criteria
