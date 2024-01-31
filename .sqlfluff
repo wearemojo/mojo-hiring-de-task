@@ -1,0 +1,11 @@
+[sqlfluff]
+dialect = bigquery
+
+[sqlfluff:indentation]
+indent_unit = tab
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = lower
+
+[sqlfluff:rules:convention.select_trailing_comma]
+select_clause_trailing_comma = require

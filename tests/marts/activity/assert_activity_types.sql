@@ -1,4 +1,4 @@
-select *
+select *,
 from {{ ref('course_activity') }}
 where type not in (
 	'all_progress_reset',
