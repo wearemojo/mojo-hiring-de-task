@@ -1,4 +1,4 @@
-# lead-de-task
+# Data engineering task
 
 Please read the "Task" section in full before you start. We recommend re-reading it before submitting.
 
